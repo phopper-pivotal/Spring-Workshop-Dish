@@ -1,0 +1,8 @@
+= Spring Workshop Pre-requisites
+== Lab Setup
+
+Setup the `spring-boot-labs` repository
+
+* fork the labs repository to your account. 
+
+
