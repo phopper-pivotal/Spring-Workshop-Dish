@@ -6,7 +6,7 @@ This one day hands-on classroom style session will provide you with a hands on e
 
 
 9 - 10 AM::
- * Session - Spring Boot Basics
+ * Session - Spring Boot
  * Lab 1
 10 - 11 AM::
  * Session - Spring Actuator
