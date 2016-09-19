@@ -31,7 +31,7 @@ This one day hands-on classroom style session will provide you with a hands on e
 
 == Course Materials
 
-* link:Introduction & Agenda.pptx[Introduction & Agenda]
+* link:Introduction_&_Agenda.pptx[Introduction & Agenda]
 * Session 1: 
 * Session 2: link:Session_2_Spring_Boot_Basics.pptx[Spring Boot Basics]
 * Session 3: link:Session_3_Spring_Boot_Going_Further.pptx[Spring Boot Going Further]
