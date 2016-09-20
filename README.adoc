@@ -33,7 +33,7 @@ This one day hands-on classroom style session will provide you with a hands on e
 
 * link:Introduction_&_Agenda.pptx[Introduction & Agenda]
 * Session 1: link:Session_1_Spring_Boot.pptx[Spring Boot]
-* Session 2: link:Session_2_Spring_Boot_Actuator[Spring Boot Actuator]
+* Session 2: link:Session_2_Spring_Boot_Actuator.pptx[Spring Boot Actuator]
 * Session 3: link:Session_3_Spring_Boot_Going_Further.pptx[Spring Boot Going Further]
 * Session 4: link:Session_4_Spring_Data.pptx[Spring Data]
 * Session 5: link:Session_5_Spring_Data_REST.pptx[Spring Data and REST]
