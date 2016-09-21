@@ -1,0 +1,5 @@
+applications:
+- name: hello
+  buildpack: java_buildpack
+  host: hello-${random-word}
+  path: target/hello-0.0.1-SNAPSHOT.jar
