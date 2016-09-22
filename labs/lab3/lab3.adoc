@@ -1,45 +1,111 @@
-= Lab 2: Spring Boot Actuator
+= Lab 2: Properties
 
 == part 1: Pick up where we left off
-. navigate to your project from lab 1
+. navigate to your project from lab 2
 . alternatively, you can go to start.spring.io and
 .. go through all the steps from lab 1
-.. when you specify dependencies, add 'actuator'
-. assuming, you don't want to repeat yourself, open the pom.xml from lab 1
-. add the following 2 dependencies
+.. no additional dependencies are necessary for this lab
+
+
+== part 2: create some properties files
+. in `src/main/resources`
+. add this to `application.properties`
 +
 ....
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-actuator</artifactId>
-</dependency>
-<dependency>
-    <groupId>org.springframework.hateoas</groupId>
-    <artifactId>spring-hateoas</artifactId>
-</dependency>
-
+greeter.details.name=DefaultDISH
 ....
-. spring-boot-starter-actuator is the guts of all the actuator endpoints
-. spring-hateoas:
-.. HATEOAS = Hypermedia As The Engine Of Application State
-.. provides functionality for the /actuator endpoint to allow it to point to all the other endpoints
-.. if you remove the hateoas dependency, actuator still works, you just don't get the /actuator endpoint itself
+. create the file `application-p1.properties` and add:
++
+....
+greeter.details.name=P1_DISH
+....
+. create the file `application-p2.properties` and add:
++
+....
+greeter.details.name=P2_DISH
+....
+. create the file `application-cloud.properties` and add:
++
+....
+greeter.details.name=P1_IN_THE_CLOUD
+....
+. create the file `application-p3.yml` and add:
++
+....
+greeter:
+  details:
+    name: P3_DISH_FROM_YAML
+....
+. create the `GreeterSettings` class alongside your other classes.  Its contents would look something like this:
++
+....
+package bootworkshop.pivotal.io;
 
-== part 2: run locally and explore
-. stop your previous version if it is still running
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+/**
+ * Created by rhardt on 9/21/16.
+ */
+@ConfigurationProperties(prefix = "greeter.details")
+public class GreeterSettings {
+
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+....
+. note that we're telling the class to look in all the Spring property sources for properties beginning with _greeter.details_ and then populate its bean values with anything after that prefix.
+so _greeter.details.name_ will populate GreeterSettings' _name_ property.
+. autowire the GreeterSettings class into our HelloController
++
+....
+@RestController
+@EnableConfigurationProperties(GreeterSettings.class)
+public class HelloController {
+
+
+    @Autowired
+    private GreeterSettings greeterSettings;
+
+    @RequestMapping("/")
+    public String sayHello(){
+        return String.format("Hello %s!", greeterSettings.getName());
+    }
+....
+. notice the 3 changes
+.. the `@EnableConfigurationProperties(GreeterSettings.class)` annotation
+.. the `@Autowired` GreeterSettings instance
+.. modified `sayHello()` method to use the property.
+
+== part 3: running the app
+. stop any running versions of the app
 . `./mvnw spring-boot:run`
-. visit http://localhost:8080/actuator
-. follow the various links
-. if you don't have the _JSONView_ chrome extension or something similar, consider installing it
-. there is some documentation of the endpoints http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html[here]
+. visit http://localhost:8080/
+. what do you see?
+. stop the app and restart it with `./mvnw spring-boot:run -Drun.profiles=p1`
+. refresh the web browser
+. stop the app and restart it with `./mvnw spring-boot:run -Drun.profiles=p2`
+. refresh the web browser
+. stop the app and restart it with `./mvnw spring-boot:run -Drun.profiles=p3`
+. refresh the web browser.  Did it pick up the .yml?
 
-== part 3:  cf push
+== part 4:  cf push
 
 . repackage `./mvnw clean package`
 . push your app:  `cf push`
-.. visit http://hello-your-random.yoursite.com/actuator
-.. note some of the differences from your local version
-. start thinking about lunch
+.. visit http://hello-your-random.yoursite.com/
+.. which properties file did it pick up?
+.. do you remember specifying a profile anywhere to cloud foundry?
+. In production, we probably don't want our settings in properties files.  They should be runtime environment variables.
+.. Try this command `cf set-env hello GREETER_DETAILS_NAME Dish_From_The_Environment`
+.. Then `cf restage hello`
+.. refresh the web browser again.  What do you see?  An you should see an *opinionated runtime*!
 
 
 
