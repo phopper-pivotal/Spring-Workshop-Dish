@@ -2,81 +2,162 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da89ffb8-b730-4710-9de4-3df50b152ab8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.mvn/wrapper/maven-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_json_json_20140107.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_core_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_test_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/.mvn/wrapper/maven-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/hello.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/manifest.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/mvnw" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/mvnw.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/src/main/resources/application.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/src/main/resources/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/src/test/java/bootworkshop/pivotal/io/HelloApplicationTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/hello/target/classes/banner.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab1/lab1.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.adoc" afterPath="$PROJECT_DIR$/README.adoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.mvn/wrapper/maven-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_20_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_json_json_20140107.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_core_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_test_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/hello-actuator.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/manifest.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/src/main/java/bootworkshop/pivotal/io/HelloApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/src/main/java/bootworkshop/pivotal/io/HelloController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/src/test/java/bootworkshop/pivotal/io/HelloApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/hello-actuator/target/classes/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab2/lab2.adoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__com_fasterxml_classmate_1_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__net_minidev_accessors_smart_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__net_minidev_json_smart_2_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_assertj_assertj_core_2_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_2_4_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_json_json_20140107.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_mockito_mockito_core_1_10_19.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_ow2_asm_asm_5_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_4_1_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_aop_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_core_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_test_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_web_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_3_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/libraries/Maven__org_yaml_snakeyaml_1_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/hello-properties.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/manifest.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/mvnw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/GreeterSettings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/HelloApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/HelloController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-cloud.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p1.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p2.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p3.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/src/test/java/bootworkshop/pivotal/io/HelloApplicationTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/hello-properties/target/classes/banner.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/labs/lab3/lab3.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Session_2_Spring_Boot_Actuator.pptx" afterPath="$PROJECT_DIR$/Session_2_Spring_Boot_Actuator.pptx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="Spring-Workshop-Dish.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/labs/lab1/hello/target/" />
+    <ignored path="$PROJECT_DIR$/labs/lab2/hello/target/" />
+    <ignored path="$PROJECT_DIR$/labs/lab2/hello-actuator/target/" />
+    <ignored path="$PROJECT_DIR$/labs/lab3/hello-properties/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,20 +174,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="lab1.adoc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/labs/lab1/lab1.adoc">
-          <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="GreeterSettings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/GreeterSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -120,10 +205,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.adoc" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/labs/lab1/hello/manifest.yml" />
         <option value="$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloController.java" />
         <option value="$PROJECT_DIR$/labs/lab1/lab1.adoc" />
+        <option value="$PROJECT_DIR$/labs/lab2/hello/pom.xml" />
+        <option value="$PROJECT_DIR$/labs/lab2/hello/manifest.yml" />
+        <option value="$PROJECT_DIR$/labs/lab2/hello-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/labs/lab2/hello-actuator/src/main/java/bootworkshop/pivotal/io/HelloController.java" />
+        <option value="$PROJECT_DIR$/labs/lab2/lab2.adoc" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/manifest.yml" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p1.properties" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p2.properties" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p3.yml" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/GreeterConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/HelloApplication.java" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/GreeterSettings.java" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/HelloController.java" />
+        <option value="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-cloud.yml" />
       </list>
     </option>
   </component>
@@ -146,12 +247,81 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Labs Parent Project" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hello-properties" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hello-properties" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hello-properties" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="spring-boot" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="hello" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="815" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,7 +348,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -213,12 +382,143 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab1" />
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hello-properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spring-Workshop-Dish" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,8 +532,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/labs/lab1/hello" />
-      <recent name="$PROJECT_DIR$/labs/lab1" />
+      <recent name="$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources" />
+      <recent name="$PROJECT_DIR$/labs/lab3/hello-properties" />
+      <recent name="$PROJECT_DIR$/labs" />
+      <recent name="$PROJECT_DIR$/labs/lab2" />
+      <recent name="$PROJECT_DIR$/labs/lab2/hello" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.HelloApplication">
@@ -459,6 +762,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -809,6 +1113,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -992,43 +1302,45 @@
       <option name="presentableId" value="Default" />
       <updated>1474471271070</updated>
       <workItem from="1474471272308" duration="246000" />
-      <workItem from="1474471777043" duration="9014000" />
+      <workItem from="1474471777043" duration="10063000" />
+      <workItem from="1474495090400" duration="6726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9260000" />
+    <option name="totallyTimeSpent" value="17035000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="815" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1047,13 +1359,36 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/labs/lab2/hello-actuator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <marker date="1474495955000" expanded="true" signature="143:1702" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="526:729" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="744:940" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="957:1517" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="972:1087" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1102:1222" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1237:1346" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1361:1500" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1527:1689" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1539:1679" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1551:1666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.adoc">
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1063,7 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="105" column="4" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,26 +1406,23 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.adoc">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="525">
             <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
-            <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1099,7 +1430,173 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding>
+            <marker date="1474498522000" expanded="false" signature="41:153" ph="..." />
+            <marker date="1474498522000" expanded="false" signature="250:255" ph=" { " />
+            <marker date="1474498522000" expanded="false" signature="307:310" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab1/lab1.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/hello-actuator/manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-actuator/1.4.1.RELEASE/spring-boot-starter-actuator-1.4.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+          <folding>
+            <marker date="1474494532000" expanded="true" signature="242:1216" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="288:428" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="541:686" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="753:842" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="856:919" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="935:1205" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="950:1061" ph="..." />
+            <marker date="1474494532000" expanded="true" signature="1076:1188" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator/1.4.1.RELEASE/spring-boot-actuator-1.4.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474494533000" expanded="true" signature="242:10824" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="288:479" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="677:766" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="780:840" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="856:10813" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="890:993" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1008:1125" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1140:1250" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1265:1363" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1378:1479" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1514:1665" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1680:1793" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1808:1946" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="1961:2102" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2117:2236" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2251:2385" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2400:2518" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2533:2652" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2667:2793" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2808:2927" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="2942:3069" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3084:3214" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3229:3346" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3361:3488" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3503:3621" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3636:3767" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3782:3902" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="3917:4046" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4061:4199" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4214:4338" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4353:4485" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4500:4627" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4642:4771" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4786:4928" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="4943:5085" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5100:5240" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5255:5393" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5408:5546" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5561:5947" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5698:5931" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5812:5914" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="5962:6112" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="6127:6278" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="6293:6420" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="6435:6579" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="6594:6741" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="6756:6893" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="6908:7043" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7058:7177" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7192:7309" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7324:7450" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7465:7585" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7600:7715" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7730:7864" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="7879:8004" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8019:8140" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8155:8276" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8324:8480" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8511:8662" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8677:8808" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8823:8979" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="8994:9114" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9129:9248" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9263:9378" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9393:9687" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9511:9671" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9527:9654" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9702:9813" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9828:9953" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="9968:10075" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="10090:10211" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="10226:10366" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="10381:10519" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="10534:10673" ph="..." />
+            <marker date="1474494533000" expanded="true" signature="10688:10796" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/hello-actuator/hello-actuator.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1121,108 +1618,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/labs/lab2/hello-actuator/src/main/java/bootworkshop/pivotal/io/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="255">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <marker date="1474475124000" expanded="true" signature="50:1026" ph="..." />
-            <marker date="1474475124000" expanded="true" signature="487:543" ph="..." />
-            <marker date="1474475124000" expanded="true" signature="556:1014" ph="..." />
-            <marker date="1474475124000" expanded="true" signature="583:1001" ph="..." />
-            <marker date="1474475124000" expanded="true" signature="605:973" ph="..." />
-            <marker date="1474475124000" expanded="true" signature="630:950" ph="..." />
-            <marker date="1474475124000" expanded="true" signature="797:924" ph="..." />
+            <marker date="1474499165000" expanded="false" signature="41:285" ph="..." />
+            <marker date="1474499165000" expanded="true" signature="287:327" ph="/**...*/" />
+            <marker date="1474499165000" expanded="true" signature="373:709" ph="{...}" />
+            <marker date="1474499165000" expanded="false" signature="429:439" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="460:466" ph=" }" />
+            <marker date="1474499165000" expanded="true" signature="583:705" ph="{...}" />
+            <marker date="1474499165000" expanded="true" signature="727:1504" ph="{...}" />
+            <marker date="1474499165000" expanded="true" signature="898:1015" ph="{...}" />
+            <marker date="1474499165000" expanded="false" signature="1047:1058" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="1073:1079" ph=" }" />
+            <marker date="1474499165000" expanded="false" signature="1123:1134" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="1157:1163" ph=" }" />
+            <marker date="1474499165000" expanded="false" signature="1196:1207" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="1223:1229" ph=" }" />
+            <marker date="1474499165000" expanded="false" signature="1275:1286" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="1311:1317" ph=" }" />
+            <marker date="1474499165000" expanded="false" signature="1355:1366" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="1387:1393" ph=" }" />
+            <marker date="1474499165000" expanded="false" signature="1450:1461" ph=" { " />
+            <marker date="1474499165000" expanded="false" signature="1496:1502" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/src/main/resources/banner.txt">
+    <entry file="file://$PROJECT_DIR$/labs/lab2/hello-actuator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="39" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1474495955000" expanded="true" signature="143:1702" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="526:729" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="744:940" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="957:1517" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="972:1087" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1102:1222" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1237:1346" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1361:1500" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1527:1689" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1539:1679" ph="..." />
+            <marker date="1474495955000" expanded="true" signature="1551:1666" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab2/lab2.adoc">
+      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="319">
+            <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <marker date="1474502162000" expanded="true" signature="143:1706" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="530:733" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="748:944" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="961:1521" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="976:1091" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="1106:1226" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="1241:1350" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="1365:1504" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="1531:1693" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="1543:1683" ph="..." />
+            <marker date="1474502162000" expanded="true" signature="1555:1670" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/manifest.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <marker date="1474502173000" expanded="true" signature="0:146" ph="applicatio...: &lt;1 item&gt;" />
+            <marker date="1474502173000" expanded="true" signature="22:27" ph="hello" />
+            <marker date="1474502173000" expanded="true" signature="41:55" ph="java_build..." />
+            <marker date="1474502173000" expanded="true" signature="64:95" ph="hello-prop..." />
+            <marker date="1474502173000" expanded="true" signature="104:146" ph="target/hel..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p1.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloApplication.java">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p2.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-p3.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
-            <marker date="1474498522000" expanded="false" signature="41:153" ph="..." />
-            <marker date="1474498522000" expanded="false" signature="250:255" ph=" { " />
-            <marker date="1474498522000" expanded="false" signature="307:310" ph=" }" />
+            <marker date="1474502426000" expanded="true" signature="0:36" ph="greeter: &lt;1 key&gt;" />
+            <marker date="1474502426000" expanded="true" signature="11:36" ph="details: &lt;1 key&gt;" />
+            <marker date="1474502426000" expanded="true" signature="30:36" ph="P3DISH" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.4.1.RELEASE/spring-boot-autoconfigure-1.4.1.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
-            <marker date="1474473360000" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1474473360000" expanded="false" signature="162:821" ph="..." />
-            <marker date="1474473360000" expanded="true" signature="823:1081" ph="@{...}" />
-            <marker date="1474473360000" expanded="true" signature="1206:1299" ph="@{...}" />
-            <marker date="1474473360000" expanded="true" signature="1349:1448" ph="@{...}" />
+            <marker date="1474502637000" expanded="true" signature="50:1128" ph="..." />
+            <marker date="1474502637000" expanded="true" signature="487:645" ph="..." />
+            <marker date="1474502637000" expanded="true" signature="658:1116" ph="..." />
+            <marker date="1474502637000" expanded="true" signature="685:1103" ph="..." />
+            <marker date="1474502637000" expanded="true" signature="707:1075" ph="..." />
+            <marker date="1474502637000" expanded="true" signature="732:1052" ph="..." />
+            <marker date="1474502637000" expanded="true" signature="899:1026" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/manifest.yml">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/HelloApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        <state relative-caret-position="90">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1474492060000" expanded="true" signature="0:125" ph="applicatio...: &lt;1 item&gt;" />
-            <marker date="1474492060000" expanded="true" signature="22:27" ph="hello" />
-            <marker date="1474492060000" expanded="true" signature="41:55" ph="java_build..." />
-            <marker date="1474492060000" expanded="true" signature="64:70" ph="hello-rob" />
-            <marker date="1474492060000" expanded="true" signature="82:113" ph="target/hel..." />
+            <marker date="1474502804000" expanded="false" signature="41:298" ph="..." />
+            <marker date="1474502804000" expanded="false" signature="396:401" ph=" { " />
+            <marker date="1474502804000" expanded="false" signature="453:456" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab1/hello/src/main/java/bootworkshop/pivotal/io/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="32" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding>
-            <marker date="1474491510000" expanded="true" signature="41:159" ph="..." />
-            <marker date="1474491510000" expanded="true" signature="161:201" ph="/**...*/" />
-            <marker date="1474491510000" expanded="true" signature="247:466" ph="{...}" />
-            <marker date="1474491510000" expanded="false" signature="303:313" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="334:340" ph=" }" />
-            <marker date="1474491510000" expanded="false" signature="402:413" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="456:462" ph=" }" />
-            <marker date="1474491510000" expanded="true" signature="484:1261" ph="{...}" />
-            <marker date="1474491510000" expanded="true" signature="655:772" ph="{...}" />
-            <marker date="1474491510000" expanded="false" signature="804:815" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="830:836" ph=" }" />
-            <marker date="1474491510000" expanded="false" signature="880:891" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="914:920" ph=" }" />
-            <marker date="1474491510000" expanded="false" signature="953:964" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="980:986" ph=" }" />
-            <marker date="1474491510000" expanded="false" signature="1032:1043" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="1068:1074" ph=" }" />
-            <marker date="1474491510000" expanded="false" signature="1112:1123" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="1144:1150" ph=" }" />
-            <marker date="1474491510000" expanded="false" signature="1207:1218" ph=" { " />
-            <marker date="1474491510000" expanded="false" signature="1253:1259" ph=" }" />
+            <marker date="1474503124000" expanded="false" signature="41:430" ph="..." />
+            <marker date="1474503124000" expanded="true" signature="432:472" ph="/**...*/" />
+            <marker date="1474503124000" expanded="true" signature="473:542" ph="@{...}" />
+            <marker date="1474503124000" expanded="true" signature="572:1010" ph="{...}" />
+            <marker date="1474503124000" expanded="false" signature="690:700" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="761:767" ph=" }" />
+            <marker date="1474503124000" expanded="true" signature="884:1006" ph="{...}" />
+            <marker date="1474503124000" expanded="true" signature="1028:1805" ph="{...}" />
+            <marker date="1474503124000" expanded="true" signature="1199:1316" ph="{...}" />
+            <marker date="1474503124000" expanded="false" signature="1348:1359" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="1374:1380" ph=" }" />
+            <marker date="1474503124000" expanded="false" signature="1424:1435" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="1458:1464" ph=" }" />
+            <marker date="1474503124000" expanded="false" signature="1497:1508" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="1524:1530" ph=" }" />
+            <marker date="1474503124000" expanded="false" signature="1576:1587" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="1612:1618" ph=" }" />
+            <marker date="1474503124000" expanded="false" signature="1656:1667" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="1688:1694" ph=" }" />
+            <marker date="1474503124000" expanded="false" signature="1751:1762" ph=" { " />
+            <marker date="1474503124000" expanded="false" signature="1797:1803" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labs/lab1/lab1.adoc">
-      <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="118" column="5" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/resources/application-cloud.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1474503254000" expanded="true" signature="0:47" ph="greeter: &lt;1 key&gt;" />
+            <marker date="1474503254000" expanded="true" signature="11:47" ph="details: &lt;1 key&gt;" />
+            <marker date="1474503254000" expanded="true" signature="30:47" ph="DISH-IN-TH..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/labs/lab3/hello-properties/src/main/java/bootworkshop/pivotal/io/GreeterSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

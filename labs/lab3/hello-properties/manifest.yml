@@ -1,0 +1,5 @@
+applications:
+- name: hello
+  buildpack: java_buildpack
+  host: hello-properties-${random-word}
+  path: target/hello-properties-0.0.1-SNAPSHOT.jar

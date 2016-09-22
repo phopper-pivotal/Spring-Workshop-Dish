@@ -1,0 +1,48 @@
+= Lab 2: Spring Boot Actuator
+
+== part 1: Pick up where we left off
+. navigate to your project from lab 1
+. alternatively, you can go to start.spring.io and
+.. go through all the steps from lab 1
+.. when you specify dependencies, add 'actuator'
+. assuming, you don't want to repeat yourself, open the pom.xml from lab 1
+. add the following 2 dependencies
++
+....
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+<dependency>
+    <groupId>org.springframework.hateoas</groupId>
+    <artifactId>spring-hateoas</artifactId>
+</dependency>
+
+....
+. spring-boot-starter-actuator is the guts of all the actuator endpoints
+. spring-hateoas:
+.. HATEOAS = Hypermedia As The Engine Of Application State
+.. provides functionality for the /actuator endpoint to allow it to point to all the other endpoints
+.. if you remove the hateoas dependency, actuator still works, you just don't get the /actuator endpoint itself
+
+== part 2: run locally and explore
+. stop your previous version if it is still running
+. `./mvnw spring-boot:run`
+. visit http://localhost:8080/actuator
+. follow the various links
+. if you don't have the _JSONView_ chrome extension or something similar, consider installing it
+. there is some documentation of the endpoints http://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html[here]
+
+== part 3:  cf push
+
+. repackage `./mvnw clean package`
+. push your app:  `cf push`
+.. visit http://hello-your-random.yoursite.com/actuator
+.. note some of the differences from your local version
+. start thinking about lunch
+
+
+
+
+
+

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring-Workshop-Dish.iml" filepath="$PROJECT_DIR$/.idea/Spring-Workshop-Dish.iml" />
       <module fileurl="file://$PROJECT_DIR$/labs/lab1/hello/hello.iml" filepath="$PROJECT_DIR$/labs/lab1/hello/hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/lab2/hello-actuator/hello-actuator.iml" filepath="$PROJECT_DIR$/labs/lab2/hello-actuator/hello-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/lab3/hello-properties/hello-properties.iml" filepath="$PROJECT_DIR$/labs/lab3/hello-properties/hello-properties.iml" />
     </modules>
   </component>
 </project>

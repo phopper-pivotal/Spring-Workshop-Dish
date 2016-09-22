@@ -23,10 +23,22 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="hello" />
+        <module name="hello-actuator" />
+        <module name="hello-properties" />
+      </profile>
+      <profile default="false" name="Annotation profile for Labs Parent Project" enabled="true">
+        <sourceOutputDir name="../../lab1/hello/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../lab1/hello/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="hello (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hello" target="1.8" />
+      <module name="hello (1)" target="1.8" />
+      <module name="hello-actuator" target="1.8" />
+      <module name="hello-properties" target="1.8" />
       <module name="Spring-Workshop-Dish" target="1.5" />
     </bytecodeTargetLevel>
   </component>

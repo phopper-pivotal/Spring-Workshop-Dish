@@ -12,6 +12,8 @@
 
     <modules>
         <module>labs/lab1/hello</module>
+        <module>labs/lab2/hello-actuator</module>
+        <module>labs/lab3/hello-properties</module>
     </modules>
 
     <build>
