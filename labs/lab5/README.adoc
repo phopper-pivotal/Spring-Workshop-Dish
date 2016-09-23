@@ -42,11 +42,11 @@ let's preload some data +
 == part 5: i failed to search for you
 let's fix search, in case you noticed there were errors +
 . visit http://localhost:8080/movies/search/findByTitle?title=Minions +
-. let's modify *_MovieRepository_*
+. let's modify *_MovieRepository_* +
 .. add @Param("title") as in `List<Movie> findByTitle(@Param("title") String title);` +
 .. add @Param ("rated") as in `List<Movie> findByRated(@Param("rated") String rated);` +
 .. add @Param ("genre") as in `List<Movie> findByGenreStartsWith(@Param("genre") String genre);` + 
-`./mvnw spring-boot:run`
+`./mvnw spring-boot:run` +
 . visit http://localhost:8080/movies/search/findByTitle?title=Minions
 
 == part 6: pagination
