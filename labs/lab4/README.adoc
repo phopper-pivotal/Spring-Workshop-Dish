@@ -198,7 +198,9 @@ public class Movie implements Serializable {
 ---------------------------------------------------------------------
 +
 . from project root directory, run `mvn sprint-boot:run` +
-[big]##what just happened?## +
+[%hardbreaks]
+what just happened?
+[%hardbreaks]
 how much boilerplate code did we have to introduce? +
 
 == part 5: can we query by other attributes
@@ -222,7 +224,8 @@ System.out.println();
 ---------------------------------------------------------------------
 +
 . from project root directory, run `mvn sprint-boot:run` +
-[big]##what just happened?##
+[%hardbreaks]
+what just happened?
 
 == part 6: that's great but what about wildcards
 . let's add some wildcard method to retrieve where genre starts with "Animation"
@@ -244,9 +247,9 @@ movieRepository.findByGenreStartsWith("Animation").forEach(genres -> System.out.
 ---------------------------------------------------------------------
 +
 . from project root directory, run `mvn sprint-boot:run` +
-+
+[%hardbreaks]
 [big]##isn't this just awesome, only need to add a single method to expose the data## +
-+
+[%hardbreaks]
 [big]##no longer embedding queries to my datastore## +
 [big]##no longer handling JDBC connections or JDBCTemplate or EntityMangerFactories## +
 [big]##no longer using @NamedQueries## +
