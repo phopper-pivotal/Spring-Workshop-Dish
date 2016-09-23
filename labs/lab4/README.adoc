@@ -198,7 +198,7 @@ public class Movie implements Serializable {
 ---------------------------------------------------------------------
 +
 . from project root directory, run `mvn sprint-boot:run` +
-what just happened? +
+[big]##what just happened?## +
 how much boilerplate code did we have to introduce? +
 
 == part 5: can we query by other attributes
@@ -222,7 +222,7 @@ System.out.println();
 ---------------------------------------------------------------------
 +
 . from project root directory, run `mvn sprint-boot:run` +
-what just happened?
+[big]##what just happened?##
 
 == part 6: that's great but what about wildcards
 . let's add some wildcard method to retrieve where genre starts with "Animation"
