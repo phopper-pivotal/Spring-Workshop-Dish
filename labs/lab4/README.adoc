@@ -149,6 +149,7 @@ public class Movie implements Serializable {
 }
 ---------------------------------------------------------------------
 +
+
 == part 2: now expose entity through a repository
 . create package io.pivotal.repositories
 . create interface *_MovieRepository_*
