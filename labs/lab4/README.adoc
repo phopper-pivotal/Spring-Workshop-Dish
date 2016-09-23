@@ -1,6 +1,6 @@
 = Lab 4: Spring Data
 
-== part 1: let's build a data driven application
+== part 1: let's build an entity
 . navigate to start.spring.io
 . configure your project
 .. group name (use *_'io.pivotal'_*')
@@ -32,9 +32,9 @@
 +
 [source, java, numbered]
 ---------------------------------------------------------------------
-    @Id
-    @GeneratedValue
-    private long id;
+@Id
+@GeneratedValue
+private long id;
 ---------------------------------------------------------------------
 +    
 
@@ -149,10 +149,13 @@ public class Movie implements Serializable {
 }
 ---------------------------------------------------------------------
 +
+== part 2: now expose entity through a repository
 . create package io.pivotal.repositories
 . create interface *_MovieRepository_*
 .. add `extends CrudRepository<Movie, Long>` to the interface
 .. add method `List<Movie> findByTitle(String title);` to the interface
+
+== part 3: a CommandLineRunner is our friend
 . let's load this entity backed by H2 with data
 .. add the code below to WatchingApplication class 
 +
@@ -195,6 +198,8 @@ public class Movie implements Serializable {
 . from project root directory, run `mvn sprint-boot:run`
 .. what just happened?
 .. how much boilerplate code did we have to introduce?
+
+== part 5: can we query by other attributes
 . let's add some other methods to retrieve our movies
 .. add a method to *_MovieRepository_* to findByRated
 +
@@ -216,6 +221,8 @@ System.out.println();
 +
 . from project root directory, run `mvn sprint-boot:run`
 .. what just happened?
+
+== part 6: that's great but what about wildcards
 . what about wildcards type of methods?
 .. let's add some wildcard method to retrieve where genre starts with "Animation"
 ... add a method findByGenreStartsWith to *_MovieRepository_*
@@ -242,6 +249,6 @@ movieRepository.findByGenreStartsWith("Animation").forEach(genres -> System.out.
 .. no longer using @NamedQueries
 .. no longer using prepared statements  
 
-= part 3: extra credit
+= part 7: extra credit
 . given we can use methods on the *_MovieRepository_* to retrieve data what other ways can you query for wildcards 
 .. (shhh here's a hint http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)
