@@ -243,14 +243,13 @@ System.out.println("---------------------------");
 movieRepository.findByGenreStartsWith("Animation").forEach(genres -> System.out.println(genres));
 ---------------------------------------------------------------------
 +
-. from project root directory, run `mvn sprint-boot:run`
-
-[big]##isn't this just awesome, only need to add a single method to expose the data##
-[big]##no longer embedding queries to my datastore##
-[big]##no longer handling JDBC connections or JDBCTemplate or EntityMangerFactories##
-[big]##no longer using @NamedQueries##
-[big]##no longer using prepared statements##  
+. from project root directory, run `mvn sprint-boot:run` +
+[big]##isn't this just awesome, only need to add a single method to expose the data## +
+[big]##no longer embedding queries to my datastore## +
+[big]##no longer handling JDBC connections or JDBCTemplate or EntityMangerFactories## +
+[big]##no longer using @NamedQueries## +
+[big]##no longer using prepared statements## +  
 
 = part 7: extra credit
-given we can use methods on the *_MovieRepository_* to retrieve data what other ways can you query for wildcards 
+given we can use methods on the *_MovieRepository_* to retrieve data what other ways can you query for wildcards + 
 [big]##(shhh here's a hint http://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation)##
