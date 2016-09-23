@@ -1,4 +1,4 @@
-= Lab 2: Properties
+= Lab 3: Properties
 
 == part 1: Pick up where we left off
 . navigate to your project from lab 2
