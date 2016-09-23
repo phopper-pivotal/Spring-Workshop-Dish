@@ -29,7 +29,7 @@
 .. POST data to the MovieRepository RESTful service +
 `curl -i -X POST -H "Content-Type:application/json" -d '{"title" : "Descpicalble Me", "year" : "2010", "rated" : "PG", "released" : "09 Jul 2010", "runtime" : "95 min" }'  http://localhost:8080/movies/` +
 [%hardbreaks]
-.. visit http://localhost:8080/movies
+. visit http://localhost:8080/movies
 
 == part 4: open the flood gates +
 . let's preload some data +
@@ -82,3 +82,22 @@ public interface MovieRepository extends PagingAndSortingRepository<Movie, Long>
 . scroll to bottom of page to see pagination enabled
 . now visit http://localhost:8080/movies/search/findByGenreStartsWith?genre=Animation&sort=year
 . verify sort order by year movie was released
+
+== part 7:  cf push
+
+. repackage `./mvnw clean package`
+. create manifest.yml
++
+---------------------------------------------------------------------
+---
+applications:
+- name: watching-${random-word}
+  buildpack: java_buildpack
+  host: hello-${random-word}
+  path: target/watching-0.0.1-SNAPSHOT.jar
+---------------------------------------------------------------------
++ 
+. push your app:  `cf push`
+. visit http://hello-your-random.yoursite.com/movies
+. visit http://hello-your-random.yoursite.com/movies/search/findByTitle?title=Minions
+. visit http://hello-your-random.yoursite.com/movies/search/findByGenreStartsWith?genre=Animation&sort=year
