@@ -13,6 +13,7 @@
 </dependency>
 ---------------------------------------------------------------------
 +
+.
 [%hardbreaks]
 == part 2: expose our MovieRepository
 . add `@RepositoryRestResource` annotation to *_MovieRepository_*
