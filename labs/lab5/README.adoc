@@ -32,12 +32,12 @@
 .. visit http://localhost:8080/movies
 
 == part 4: open the flood gates +
-let's preload some data +
-. copy labs/lab5/import.sql to src/main/resources +
-. stop your previous version if it is still running +
+. let's preload some data +
+.. copy labs/lab5/import.sql to src/main/resources +
+.. stop your previous version if it is still running +
  `./mvnw spring-boot:run` +
-. visit http://localhost:8080/movies +
-. follow the various links
+.. visit http://localhost:8080/movies +
+.. follow the various links
 
 == part 5: i failed to search for you +
 let's fix search, in case you noticed there were errors +
