@@ -225,16 +225,15 @@ System.out.println();
 .. what just happened?
 
 == part 6: that's great but what about wildcards
-. what about wildcards type of methods?
-.. let's add some wildcard method to retrieve where genre starts with "Animation"
-... add a method findByGenreStartsWith to *_MovieRepository_*
+. let's add some wildcard method to retrieve where genre starts with "Animation"
+. add a method findByGenreStartsWith to *_MovieRepository_*
 +
 [source, java, numbered]
 ---------------------------------------------------------------------
 List<Movie> findByGenreStartsWith(String genre);
 ---------------------------------------------------------------------
 +
-.. add code to the CommandLineRunner in *_WatchingApplication_* to output findByRated
+. add code to the CommandLineRunner in *_WatchingApplication_* to output findByRated
 +
 [source, java, numbered]
 ---------------------------------------------------------------------
@@ -245,11 +244,11 @@ movieRepository.findByGenreStartsWith("Animation").forEach(genres -> System.out.
 ---------------------------------------------------------------------
 +
 . from project root directory, run `mvn sprint-boot:run`
-.. isn't this just awesome, only need to add a single method to expose the data
-.. no longer embedding queries to my datastore
-.. no longer handling JDBC connections or JDBCTemplate or EntityMangerFactories
-.. no longer using @NamedQueries
-.. no longer using prepared statements  
+ isn't this just awesome, only need to add a single method to expose the data
+ no longer embedding queries to my datastore
+ no longer handling JDBC connections or JDBCTemplate or EntityMangerFactories
+ no longer using @NamedQueries
+ no longer using prepared statements  
 
 = part 7: extra credit
 . given we can use methods on the *_MovieRepository_* to retrieve data what other ways can you query for wildcards 
