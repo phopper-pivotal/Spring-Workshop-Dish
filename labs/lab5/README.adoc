@@ -32,7 +32,7 @@ from part 2 we can see there's no data
 . visit http://localhost:8080/movies
 
 == part 4: open the flood gates
-let's preload some data
+let's preload some data +
 . copy labs/lab5/import.sql to src/main/resources
 . stop your previous version if it is still running
 . `./mvnw spring-boot:run`
