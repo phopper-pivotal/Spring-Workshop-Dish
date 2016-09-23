@@ -14,7 +14,7 @@
 ---------------------------------------------------------------------
 +
 .
-[%hardbreaks]
+
 == part 2: expose our MovieRepository
 . add `@RepositoryRestResource` annotation to *_MovieRepository_*
 .. add attribute `collectionResourceRel = "movies"` to @RepositoryRestResource annotation
