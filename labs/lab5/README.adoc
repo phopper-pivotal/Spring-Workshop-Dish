@@ -20,7 +20,7 @@
 .. add attribute `collectionResourceRel = "movies"` to @RepositoryRestResource annotation
 .. add attribute `path = "movies"` to @RepositoryRestResource annotation
 . stop your previous version if it is still running
- `./mvnw spring-boot:run`
+. `./mvnw spring-boot:run`
 . visit http://localhost:8080/movies
 . follow the various links
 
@@ -35,7 +35,7 @@
 . let's preload some data +
 .. copy labs/lab5/import.sql to src/main/resources +
 .. stop your previous version if it is still running +
- `./mvnw spring-boot:run` +
+. `./mvnw spring-boot:run` +
 .. visit http://localhost:8080/movies +
 .. follow the various links
 
