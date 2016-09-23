@@ -31,7 +31,7 @@
 [%hardbreaks]
 .. visit http://localhost:8080/movies
 
-== part 4: open the flood gates
+== part 4: open the flood gates +
 let's preload some data +
 . copy labs/lab5/import.sql to src/main/resources +
 . stop your previous version if it is still running +
@@ -39,7 +39,7 @@ let's preload some data +
 . visit http://localhost:8080/movies +
 . follow the various links
 
-== part 5: i failed to search for you
+== part 5: i failed to search for you +
 let's fix search, in case you noticed there were errors +
 . visit http://localhost:8080/movies/search/findByTitle?title=Minions +
 . let's modify *_MovieRepository_* +
@@ -49,12 +49,12 @@ let's fix search, in case you noticed there were errors +
 `./mvnw spring-boot:run` +
 . visit http://localhost:8080/movies/search/findByTitle?title=Minions
 
-== part 6: pagination
-let's enable pagination
-. change CrudRepository in *_MovieRepository_* to use PagingAndSortingRepository
-. change return type from List<Movie> to Page<Movie>
-. add extra argument to each findBy method as in `@Param("title") String title, Pageable pageable`
-. should now look like
+== part 6: pagination +
+. let's enable pagination
+.. change CrudRepository in *_MovieRepository_* to use PagingAndSortingRepository
+.. change return type from List<Movie> to Page<Movie>
+.. add extra argument to each findBy method as in `@Param("title") String title, Pageable pageable`
+.. should now look like
 [source, java, numbered]
 ---------------------------------------------------------------------
 import io.pivotal.domain.Movie;
