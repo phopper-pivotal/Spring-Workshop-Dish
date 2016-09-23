@@ -105,7 +105,7 @@ public class HelloController {
 . In production, we probably don't want our settings in properties files.  They should be runtime environment variables.
 .. Try this command `cf set-env hello GREETER_DETAILS_NAME Dish_From_The_Environment`
 .. Then `cf restage hello`
-.. refresh the web browser again.  What do you see?  An you should see an *opinionated runtime*!
+.. refresh the web browser again.  What do you see?  And you should see an *opinionated runtime*!
 
 
 
