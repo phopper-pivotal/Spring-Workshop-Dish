@@ -28,6 +28,7 @@
 from part 2 we can see there's no data
 . POST data to the MovieRepository RESTful service +
 `curl -i -X POST -H "Content-Type:application/json" -d '{"title" : "Descpicalble Me", "year" : "2010", "rated" : "PG", "released" : "09 Jul 2010", "runtime" : "95 min" }'  http://localhost:8080/movies/` +
+[%hardbreaks]
 . visit http://localhost:8080/movies
 
 == part 4: open the flood gates
