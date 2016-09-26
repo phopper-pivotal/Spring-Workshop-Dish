@@ -171,7 +171,7 @@ $ curl https://localhost:8443/oauth/token --insecure -u myid:mysecret -d grant_t
 +
 [source, numbered]
 ---------------------------------------------------------------------
-`TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
 ---------------------------------------------------------------------
 +
 . replace token with value from "access_token" received in response from oauth server
