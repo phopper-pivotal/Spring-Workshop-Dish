@@ -4,22 +4,21 @@
 
 This one day hands-on classroom style session will provide you with a hands on experience with Spring Boot, Spring Data, Spring REST, Spring Security and fundamentals of building applications. The session includes presentations, demos and hands on labs.
 
-
 9 - 10 AM::
- * Session +Lab - Spring Boot
+ * Session 1 +Lab - Spring Boot
 10 - 11 AM::
- * Session +Lab - Spring Actuator
+ * Session 2 +Lab - Spring Actuator
 11 - 11:15 AM:: Break
 11:15 - 12:15 PM::
- * Session +Lab - Spring Boot Going Further
+ * Session 3 +Lab - Spring Boot Going Further
 12:15 PM - 1:15 PM:: Lunch
 1:15 PM - 2:15 PM::
- * Session +Lab - Spring Data
+ * Session 4 +Lab - Spring Data
 2:15 PM - 3:15 PM::
- * Session +Lab - Spring Data REST
+ * Session 5 +Lab - Spring Data REST
 3:15 - 3:30:: Break
 3:30 PM - 4:15 PM::
- * Session +Lab - Spring Security
+ * Session 6 +Lab - Spring Security
 4:15 PM - 4:45 PM:: 
  * Wrap Up, Q/A, Feedback
 
