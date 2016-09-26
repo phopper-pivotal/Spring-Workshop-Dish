@@ -25,7 +25,7 @@ This one day hands-on classroom style session will provide you with a hands on e
 
 == Course Materials
 
-* link:Introduction_and_Agenda.pptxIntroduction & Agenda]
+* link:Introduction_and_Agenda.pptx[Introduction & Agenda]
 * Session 1: link:Session_1_Spring_Boot.pptx[Spring Boot]
 * Session 2: link:Session_2_Spring_Boot_Actuator.pptx[Spring Boot Actuator]
 * Session 3: link:Session_3_Spring_Boot_Going_Further.pptx[Spring Boot Going Further]
