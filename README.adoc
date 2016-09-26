@@ -42,9 +42,9 @@ This one day hands-on classroom style session will provide you with a hands on e
 * Developer Workshop
 ** Pre-work
 *** link:pre-requisites/Spring_Boot_Labs_Setup.html[Setup]
-** link:labs/lab1/Spring_Boot_Getting_Started.html[Lab 1 - Spring Boot Basics]
-** link:labs/lab2/Spring_Actuator.html[Lab 2 - Spring Actuator]
-** link:labs/lab3/Externalizing_Configuration_with_Spring_Boot.html[Lab 3 - Spring Boot Going Further]
-** link:labs/lab4/Spring_Boot_with_Spring_Data.html[Lab 4 - Spring Data]
-** link:labs/lab5/Spring_Boot_with_Spring_Data_Rest.html[Lab 5 - Spring Data Rest]
-** link:labs/lab7/Spring_Security.html[Lab 6 - Spring Security]
+** link:labs/lab1/README.html[Lab 1 - Spring Boot Basics]
+** link:labs/lab2/README.html[Lab 2 - Spring Actuator]
+** link:labs/lab3/README.html[Lab 3 - Spring Boot Going Further]
+** link:labs/lab4/README.html[Lab 4 - Spring Data]
+** link:labs/lab5/README.html[Lab 5 - Spring Data Rest]
+** link:labs/lab6/README.html[Lab 6 - Spring Security]
