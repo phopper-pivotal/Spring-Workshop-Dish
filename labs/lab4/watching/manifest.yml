@@ -1,0 +1,6 @@
+---
+applications:
+- name: watching-${random-word}
+  buildpack: java_buildpack
+  host: hello-${random-word}
+  path: target/watching-0.0.1-SNAPSHOT.jar

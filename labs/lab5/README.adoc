@@ -86,14 +86,14 @@ public interface MovieRepository extends PagingAndSortingRepository<Movie, Long>
 == part 7:  cf push
 
 . repackage `./mvnw clean package`
-. create manifest.yml
+. create manifest.yml - be sure to change *_<your cf login>_* to that of your PCF login name
 +
 ---------------------------------------------------------------------
 ---
 applications:
 - name: watching-${random-word}
   buildpack: java_buildpack
-  host: hello-${random-word}
+  host: hello-$<your cf login>
   path: target/watching-0.0.1-SNAPSHOT.jar
 ---------------------------------------------------------------------
 + 

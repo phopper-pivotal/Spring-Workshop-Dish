@@ -1,20 +1,24 @@
 package io.pivotal;
 
-import io.pivotal.domain.Movie;
-import io.pivotal.repositories.MovieRepository;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableAuthorizationServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
+import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
+@RestController
+@EnableAuthorizationServer
+@EnableResourceServer
 public class WatchingApplication {
 
 	public static void main(String[] args) {
 
 		SpringApplication.run(WatchingApplication.class, args);
+
 	}
 
+    /**
     @Bean
     public CommandLineRunner demo(MovieRepository movieRepository) {
         return (args) -> {
@@ -60,4 +64,6 @@ public class WatchingApplication {
             movieRepository.findByGenreStartsWith("Animation").forEach(genres -> System.out.println(genres));
         };
     }
+    **/
 }
+

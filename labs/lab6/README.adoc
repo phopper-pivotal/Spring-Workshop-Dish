@@ -1,0 +1,193 @@
+= Lab 6: Spring Security
+
+== part 1: simple authentication
+. navigate to your project from lab 4
+. open the `pom.xml` from lab 4
+. add the following dependency
++
+[source, xml, numbered]
+---------------------------------------------------------------------
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+---------------------------------------------------------------------
++
+
+. `./mvnw spring-boot:run` +
+. visit http://localhost:8080/movies +
+. notice that you are promoted for a username and password
+. take a look at the output and look for the _password_. You should see a print out: “Using default security password: …”. 
+. the username is: user and the password is the one in the output.
+. once username/password have been entered you will be able to see the web page
+
+== part 2: can we externalize the username / password used for authentication
+. create file *_application.yml_* in src/main/resources/
+. add the following YAML properties (note YAML is formatted using spaces, convert tabs to spaces in your IDE)
++
+[source, YAML, numbered]
+---------------------------------------------------------------------
+## Security
+security:
+  user:
+    name: springboot
+    password: workshop
+---------------------------------------------------------------------
++
+. `./mvnw spring-boot:run` +
+. visit http://localhost:8080/movies +
+. notice that you are promoted for a username and password
+. use the username (*_security.user.name_*) and password (*_security.user.password_*) from *_application.yml_* file
+
+== part 3: let's introduce oauth2
+. open the `pom.xml` from lab 4
+. add the following dependency
++
+[source, xml, numbered]
+---------------------------------------------------------------------
+<dependency>
+    <groupId>org.springframework.security.oauth</groupId>
+    <artifactId>spring-security-oauth2</artifactId>
+    <version>2.0.7.RELEASE</version>
+</dependency>
+---------------------------------------------------------------------
++
+. `./mvnw spring-boot:run` +
+. take a look at the output and look for the *_security.oauth2.client.clientId_* & *_security.oauth2.client.secret_*. you should see them printed out.
+. lets obtain a bearer token
+. replace *_<clientId>_* and *_<secret>_* for the values found in the output
++
+[source, numbered]
+---------------------------------------------------------------------
+curl <clientId>:<secret>@localhost:8080/oauth/token -d grant_type=password -d scope=read -d username=springboot -d password=workshop
+
+{"access_token":"482af593-1f00-4451-8bda-2d54440bfe37","token_type":"bearer","refresh_token":"9f6384a7-b2b2-4907-b0d5-d487000dd002","expires_in":43199,"scope":"read"}
+---------------------------------------------------------------------
++
+. take note in the results, we received an access_token of type "bearer" with a refresh scope and expires in 43199. scope is set to read (handle on GET)
+. lets access the movie service
++
+[source, numbered]
+---------------------------------------------------------------------
+curl localhost:8080 -H "Authorization: Bearer <access_token>"
+---------------------------------------------------------------------
++
+. replace token with value from "access_token" received in response from oauth server, see example below
++
+[source, json, numbered]
+---------------------------------------------------------------------
+$ curl localhost:8080 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37"
+{
+  "_links" : {
+    "movies" : {
+      "href" : "http://localhost:8080/movies{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/profile"
+    }
+  }
+}
+---------------------------------------------------------------------
++
+[%hardbreaks]
+.
+
+== part 4: use supplied client-id and client-secret
+. add the following YAML stanza to *_application.yml_* file in src/main/resources/
++
+[source, YAML, numbered]
+---------------------------------------------------------------------
+## Security
+security:
+  user:
+    name: springboot
+    password: workshop
+# add content ----
+  oauth2:
+    client:
+      client-id: myid
+      client-secret: mysecret
+# add content ^^^^      
+---------------------------------------------------------------------
++
+. lets obtain a bearer token
++
+[source, json, numbered]
+---------------------------------------------------------------------
+curl myid:mysecret@localhost:8080/oauth/token -d grant_type=password -d scope=read -d username=springboot -d password=workshop
+{"access_token":"482af593-1f00-4451-8bda-2d54440bfe37","token_type":"bearer","refresh_token":"9f6384a7-b2b2-4907-b0d5-d487000dd002","expires_in":43199,"scope":"read"}
+---------------------------------------------------------------------
++
+
+. take note in the results, we received an access_token of type "bearer" with a refresh scope and expires in 43199. scope is set to read (handle on GET)
+. lets access the movie service
+`curl localhost:8080 -H "Authorization: Bearer <access_token>"`
+. replace token with value from "access_token" received in response from oauth server
++
+[source, json, numbered]
+---------------------------------------------------------------------
+$ curl localhost:8080 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37"
+{
+  "_links" : {
+    "movies" : {
+      "href" : "http://localhost:8080/movies{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/profile"
+    }
+  }
+} 
+---------------------------------------------------------------------
++
+.
+
+== part 5: okay so how does one enable SSL
+. we've created a p12 in advance, copy watching/keystore.p12 to your base directory for the project
+. add to _application.yml_ these properties
++
+[source, yml, numbered]
+---------------------------------------------------------------------
+server:
+  port: 8443
+  ssl:
+    enabled: true
+    key-alias: spring-security
+    key-store: keystore.p12
+    key-store-type: PKCS12
+    key-store-password: spring-security
+    key-password: spring-security
+---------------------------------------------------------------------
++
+. lets obtain a bearer token
++
+[source, numbered]
+---------------------------------------------------------------------
+$ curl https://localhost:8443/oauth/token --insecure -u myid:mysecret -d grant_type=password -d scope=read -d username=springboot -d password=workshop -v
+---------------------------------------------------------------------
++
+. note with verbose turned on we can see TLS is enabled
++
+[source, numbered]
+---------------------------------------------------------------------
+TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+---------------------------------------------------------------------
++
+. replace token with value from "access_token" received in response from oauth server
++
+[source, json, numbered]
+---------------------------------------------------------------------
+$ curl https://localhost:8443 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37" --insecure
+{
+  "_links" : {
+    "movies" : {
+      "href" : "http://localhost:8080/movies{?page,size,sort}",
+      "templated" : true
+    },
+    "profile" : {
+      "href" : "http://localhost:8080/profile"
+    }
+  }
+---------------------------------------------------------------------
++
