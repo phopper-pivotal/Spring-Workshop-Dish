@@ -37,7 +37,7 @@ security:
 . `./mvnw spring-boot:run` +
 . visit http://localhost:8080/movies +
 . notice that you are promoted for a username and password
-. use the username (*_security.user.name_*) and password (*_security.user.password_*) from _application.yml_ file
+. use the username (*_security.user.name_*) and password (*_security.user.password_*) from *_application.yml_* file
 
 == part 3: let's introduce oauth2
 . open the `pom.xml` from lab 4
