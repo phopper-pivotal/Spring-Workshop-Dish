@@ -5,6 +5,8 @@
 . alternatively, you can go to start.spring.io and
 .. go through all the steps from lab 1
 .. when you specify dependencies, add 'actuator'
++
+image::lab2_boot.png[]
 . assuming, you don't want to repeat yourself, open the pom.xml from lab 1
 . add the following 2 dependencies
 +
