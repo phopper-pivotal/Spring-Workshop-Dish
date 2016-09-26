@@ -201,7 +201,7 @@ public class Movie implements Serializable {
 [%hardbreaks]
 what just happened?
 [%hardbreaks]
-how much boilerplate code did we have to introduce? +
+how much boilerplate code did we have to introduce?
 
 == part 5: can we query by other attributes
 . let's add some other methods to retrieve our movies
