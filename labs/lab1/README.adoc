@@ -2,6 +2,8 @@
 
 == part 1: run locally
 . visit link:http://start.spring.io[start.spring.io]
++
+image::lab1_boot.png[]
 . configure your project
 .. group name
 .. artifact name (*_'hello'_* is recommended)
@@ -14,9 +16,9 @@
 . open in IDE or cd to project directory for vim/emacs
 . open pom.xml - notice the spring starters
 . create class: `HelloController` in same directory as the Boot app class
-.. annotate the class with `org.springframework.web.bind.annotation.RestController`
+.. annotate the class with `@RestController` (package: `org.springframework.web.bind.annotation`)
 .. create method: `public String sayHello() { return "Hello World"; }`
-.. annotate the method with: `org.springframework.web.bind.annotation.RequestMapping("/")`
+.. annotate the method with: `@RequestMapping("/")` (package: `org.springframework.web.bind.annotation`)
 .. Your source should look something like this:
 +
 ....
@@ -51,7 +53,7 @@
 . log in to cloud foundry `cf login -a api.yourpcfsystem.com`
 . when prompted, provide your email and password
 . if prompted, choose an appropriate org and space
-. push your app:  `cf push -p ./target/hello-0.0.1-SNAPSHOT.jar -n "hello-rob" -b java_buildpack`
+. push your app:  `cf push hello -p ./target/hello-0.0.1-SNAPSHOT.jar -n "hello-rob" -b java_buildpack`
 .. instead of 'hello-rob' give your app a unique route (the `-n` option)
 .. depending on what you called your app, the runnable jar (the `-p` option) may be different
 .. watch the output, it will tell you the url of your app
