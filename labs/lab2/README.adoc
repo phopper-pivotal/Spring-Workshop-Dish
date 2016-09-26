@@ -4,7 +4,7 @@
 . navigate to your project from lab 1
 . alternatively, you can go to start.spring.io and
 .. go through all the steps from lab 1
-.. when you specify dependencies, add 'actuator'
+.. when you specify dependencies, add `actuator` and `HATEOAS`
 +
 image::lab2_boot.png[]
 . assuming, you don't want to repeat yourself, open the pom.xml from lab 1
