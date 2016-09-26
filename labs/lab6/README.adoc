@@ -162,13 +162,18 @@ server:
 +
 . lets obtain a bearer token
 +
-[source, json, numbered]
+[source, numbered]
 ---------------------------------------------------------------------
 $ curl https://localhost:8443/oauth/token --insecure -u myid:mysecret -d grant_type=password -d scope=read -d username=springboot -d password=workshop -v
 ---------------------------------------------------------------------
 +
 . note with verbose turned on we can see TLS is enabled
++
+[source, numbered]
+---------------------------------------------------------------------
 `TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256`
+---------------------------------------------------------------------
++
 . replace token with value from "access_token" received in response from oauth server
 +
 [source, json, numbered]
