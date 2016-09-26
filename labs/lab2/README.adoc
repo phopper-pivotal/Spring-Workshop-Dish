@@ -45,7 +45,7 @@ image::lab2_boot.png[]
 
 == part 4: extra credit
 
-. Your company uses routers manufactured with recycled electronics from Russian submarines.  As a result, they you need to provide a custom health message that includes: 'положение_дел:вверх' to route requests properly.  Refer to http://www.baeldung.com/spring-boot-actuators
+. Your company uses routers manufactured with recycled electronics from Russian submarines.  As a result, they you need to provide a custom health message that includes: 'положение_дел:вверх' in your `/health` endpoint to route requests properly.  Refer to http://www.baeldung.com/spring-boot-actuators
 . When certain requests come in, your app spins out of control  Your support team is asking for thread and heap dumps.  Can you provide them without logging into the server and running commands from a shell?
 . Support would also like to see a dump of the last N requests to come in.
 . They would also like self-service access to the app's overall health when it isn't spinning out of control,  What can you give them?
