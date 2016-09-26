@@ -66,8 +66,13 @@ curl <clientId>:<secret>@localhost:8080/oauth/token -d grant_type=password -d sc
 +
 . take note in the results, we received an access_token of type "bearer" with a refresh scope and expires in 43199. scope is set to read (handle on GET)
 . lets access the movie service
-`curl localhost:8080 -H "Authorization: Bearer <access_token>"`
-. replace token with value from "access_token" received in response from oauth server
++
+[source, numbered]
+---------------------------------------------------------------------
+curl localhost:8080 -H "Authorization: Bearer <access_token>"
+---------------------------------------------------------------------
++
+. replace token with value from "access_token" received in response from oauth server, see example below
 +
 [source, json, numbered]
 ---------------------------------------------------------------------
