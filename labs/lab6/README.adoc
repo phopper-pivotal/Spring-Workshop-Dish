@@ -92,8 +92,9 @@ $ curl localhost:8080 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440b
 +
 [%hardbreaks]
 .
+
 == part 4: use supplied client-id and client-secret
-. add the following YAML stanza to _application.yml_ file in src/main/resources/
+. add the following YAML stanza to *_application.yml_* file in src/main/resources/
 +
 [source, YAML, numbered]
 ---------------------------------------------------------------------
@@ -134,6 +135,7 @@ $ curl localhost:8080 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440b
 } 
 ---------------------------------------------------------------------
 +
+.
 
 == part 5: okay so how does one enable SSL
 . we've created a p12 in advance, copy watching/keystore.p12 to your base directory for the project
