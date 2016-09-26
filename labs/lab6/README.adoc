@@ -22,7 +22,7 @@
 . once username/password have been entered you will be able to see the web page
 
 == part 2: can we externalize the username / password used for authentication
-. create file _application.yml_ in src/main/resources/
+. create file *_application.yml_* in src/main/resources/
 . add the following YAML properties (note YAML is formatted using spaces, convert tabs to spaces in your IDE)
 +
 [source, YAML, numbered]
