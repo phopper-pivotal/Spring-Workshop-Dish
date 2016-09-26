@@ -17,10 +17,9 @@
 . `./mvnw spring-boot:run` +
 . visit http://localhost:8080/movies +
 . notice that you are promoted for a username and password
-.. take a look at the output and look for the _password_. You should see a print out: “Using default security password: …”. 
-.. copy the password to the clipboard because you will use it
-.. the username is: user and the password is the one you have in the clipboard.
-.. once username/password have been entered you will be able to see the web page
+. take a look at the output and look for the _password_. You should see a print out: “Using default security password: …”. 
+. the username is: user and the password is the one you have in the clipboard.
+. once username/password have been entered you will be able to see the web page
 
 == part 2: can we externalize the username / password used for authentication
 . create file _application.yml_ in src/main/resources/
