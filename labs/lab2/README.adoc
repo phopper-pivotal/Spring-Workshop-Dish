@@ -4,7 +4,9 @@
 . navigate to your project from lab 1
 . alternatively, you can go to start.spring.io and
 .. go through all the steps from lab 1
-.. when you specify dependencies, add 'actuator'
+.. when you specify dependencies, add `actuator` and `HATEOAS`
++
+image::lab2_boot.png[]
 . assuming, you don't want to repeat yourself, open the pom.xml from lab 1
 . add the following 2 dependencies
 +
@@ -41,7 +43,14 @@
 .. note some of the differences from your local version
 . start thinking about lunch
 
+== part 4: extra credit
 
+. Your company uses routers manufactured with recycled electronics from Russian submarines.  As a result, they you need to provide a custom health message that includes: 'положение_дел:вверх' in your `/health` endpoint to route requests properly.  Refer to http://www.baeldung.com/spring-boot-actuators
+. When certain requests come in, your app spins out of control  Your support team is asking for thread and heap dumps.  Can you provide them without logging into the server and running commands from a shell?
+. Support would also like to see a dump of the last N requests to come in.
+. They would also like self-service access to the app's overall health when it isn't spinning out of control,  What can you give them?
+. You think you might have left the "SPIN_OUT_OF_CONTROL_WHEN_CAT_VIDEOS_ARE_REQUSTED" environment variable set to true.  How can you validate the apps environment variables?
+. the /greeting endpoint doesn't seem to be mapped.  How can we determine all the endpoint mappings?
 
 
 
