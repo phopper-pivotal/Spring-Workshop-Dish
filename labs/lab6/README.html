@@ -515,6 +515,20 @@ security:
 </div>
 </li>
 <li>
+<p>add annotations to WatchingApplication class
+@EnableAuthorizationServer
+@EnableResourceServer</p>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-xml" data-lang="xml">@SpringBootApplication
+@RestController
+@EnableAuthorizationServer    // &lt;----- add
+@EnableResourceServer         // &lt;----- add
+public class WatchingApplication {</code></pre>
+</div>
+</div>
+</li>
+<li>
 <p><code>./mvnw spring-boot:run</code><br></p>
 </li>
 <li>
@@ -594,6 +608,9 @@ security:
 </div>
 </li>
 <li>
+<p><code>./mvnw spring-boot:run</code><br></p>
+</li>
+<li>
 <p>lets obtain a bearer token</p>
 <div class="listingblock">
 <div class="content">
@@ -641,10 +658,10 @@ security:
 <div class="olist arabic">
 <ol class="arabic">
 <li>
-<p>we&#8217;ve created a p12 in advance, copy watching/keystore.p12 to your base directory for the project</p>
+<p>we&#8217;ve created a p12 in advance, copy labs/lab4/watching/keystore.p12 to your base directory for the project</p>
 </li>
 <li>
-<p>add to <em>application.yml</em> these properties</p>
+<p>add to <strong><em>application.yml</em></strong> these properties</p>
 <div class="listingblock">
 <div class="content">
 <pre class="highlight"><code class="language-yml" data-lang="yml">server:
@@ -679,17 +696,41 @@ security:
 <p>replace token with value from "access_token" received in response from oauth server</p>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-json" data-lang="json">$ curl https://localhost:8443 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37" --insecure
+<pre class="highlight"><code class="language-json" data-lang="json">$ curl -X GET -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37" https://localhost:8443/movies --insecure
 {
-  "_links" : {
-    "movies" : {
-      "href" : "http://localhost:8080/movies{?page,size,sort}",
-      "templated" : true
-    },
-    "profile" : {
-      "href" : "http://localhost:8080/profile"
-    }
-  }</code></pre>
+  "_embedded" : {
+    "movies" : [ {
+      "title" : "Despicable Me",
+      "year" : "2010",
+      "rated" : "PG",
+      "released" : "09 Jul 2010",
+      "runtime" : "95 min",
+      "genre" : "Animation, Comedy, Family",
+      "_links" : {
+        "self" : {
+          "href" : "https://localhost:8443/movies/1"
+        },
+        "movie" : {
+          "href" : "https://localhost:8443/movies/1"
+        }
+      }
+    }, {
+      "title" : "Frozen",
+      "year" : "2013",
+      "rated" : "PG",
+      "released" : "27 Nov 2013",
+      "runtime" : "102 min",
+      "genre" : "Animation, Adventure, Comedy",
+      "_links" : {
+        "self" : {
+          "href" : "https://localhost:8443/movies/2"
+        },
+        "movie" : {
+          "href" : "https://localhost:8443/movies/2"
+        }
+      }
+    }, {
+      "title" : "Toy Story",</code></pre>
 </div>
 </div>
 </li>
@@ -700,7 +741,7 @@ security:
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2016-09-26 12:59:24 MDT
+Last updated 2016-09-26 17:40:00 MDT
 </div>
 </div>
 </body>

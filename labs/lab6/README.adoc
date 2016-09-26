@@ -52,6 +52,19 @@ security:
 </dependency>
 ---------------------------------------------------------------------
 +
+. add annotations to WatchingApplication class
+@EnableAuthorizationServer
+@EnableResourceServer
++
+[source, xml, numbered]
+---------------------------------------------------------------------
+@SpringBootApplication
+@RestController
+@EnableAuthorizationServer    // <----- add
+@EnableResourceServer         // <----- add
+public class WatchingApplication {
+---------------------------------------------------------------------
++
 . `./mvnw spring-boot:run` +
 . take a look at the output and look for the *_security.oauth2.client.clientId_* & *_security.oauth2.client.secret_*. you should see them printed out.
 . lets obtain a bearer token
@@ -111,6 +124,7 @@ security:
 # add content ^^^^      
 ---------------------------------------------------------------------
 +
+. `./mvnw spring-boot:run` +
 . lets obtain a bearer token
 +
 [source, json, numbered]
@@ -144,8 +158,8 @@ $ curl localhost:8080 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440b
 .
 
 == part 5: okay so how does one enable SSL
-. we've created a p12 in advance, copy watching/keystore.p12 to your base directory for the project
-. add to _application.yml_ these properties
+. we've created a p12 in advance, copy labs/lab4/watching/keystore.p12 to your base directory for the project
+. add to *_application.yml_* these properties
 +
 [source, yml, numbered]
 ---------------------------------------------------------------------
@@ -178,16 +192,40 @@ TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
 +
 [source, json, numbered]
 ---------------------------------------------------------------------
-$ curl https://localhost:8443 -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37" --insecure
+$ curl -X GET -H "Authorization: Bearer 482af593-1f00-4451-8bda-2d54440bfe37" https://localhost:8443/movies --insecure
 {
-  "_links" : {
-    "movies" : {
-      "href" : "http://localhost:8080/movies{?page,size,sort}",
-      "templated" : true
-    },
-    "profile" : {
-      "href" : "http://localhost:8080/profile"
-    }
-  }
+  "_embedded" : {
+    "movies" : [ {
+      "title" : "Despicable Me",
+      "year" : "2010",
+      "rated" : "PG",
+      "released" : "09 Jul 2010",
+      "runtime" : "95 min",
+      "genre" : "Animation, Comedy, Family",
+      "_links" : {
+        "self" : {
+          "href" : "https://localhost:8443/movies/1"
+        },
+        "movie" : {
+          "href" : "https://localhost:8443/movies/1"
+        }
+      }
+    }, {
+      "title" : "Frozen",
+      "year" : "2013",
+      "rated" : "PG",
+      "released" : "27 Nov 2013",
+      "runtime" : "102 min",
+      "genre" : "Animation, Adventure, Comedy",
+      "_links" : {
+        "self" : {
+          "href" : "https://localhost:8443/movies/2"
+        },
+        "movie" : {
+          "href" : "https://localhost:8443/movies/2"
+        }
+      }
+    }, {
+      "title" : "Toy Story",
 ---------------------------------------------------------------------
 +
