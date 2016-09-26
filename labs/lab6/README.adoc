@@ -53,7 +53,7 @@ security:
 ---------------------------------------------------------------------
 +
 . `./mvnw spring-boot:run` +
-. take a look at the output and look for the _security.oauth2.client.clientId_ & _security.oauth2.client.secret_. you should see them printed out.
+. take a look at the output and look for the *_security.oauth2.client.clientId_* & *_security.oauth2.client.secret_*. you should see them printed out.
 . lets obtain a bearer token
 . replace *_<clientId>_* and *_<secret>_* for the values found in the output
 +
