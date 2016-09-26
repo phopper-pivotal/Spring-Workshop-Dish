@@ -112,8 +112,14 @@ security:
 ---------------------------------------------------------------------
 +
 . lets obtain a bearer token
-`curl myid:mysecret@localhost:8080/oauth/token -d grant_type=password -d scope=read -d username=springboot -d password=workshop`
-`{"access_token":"482af593-1f00-4451-8bda-2d54440bfe37","token_type":"bearer","refresh_token":"9f6384a7-b2b2-4907-b0d5-d487000dd002","expires_in":43199,"scope":"read"}`
++
+[source, json, numbered]
+---------------------------------------------------------------------
+curl myid:mysecret@localhost:8080/oauth/token -d grant_type=password -d scope=read -d username=springboot -d password=workshop
+{"access_token":"482af593-1f00-4451-8bda-2d54440bfe37","token_type":"bearer","refresh_token":"9f6384a7-b2b2-4907-b0d5-d487000dd002","expires_in":43199,"scope":"read"}
+---------------------------------------------------------------------
++
+
 . take note in the results, we received an access_token of type "bearer" with a refresh scope and expires in 43199. scope is set to read (handle on GET)
 . lets access the movie service
 `curl localhost:8080 -H "Authorization: Bearer <access_token>"`
