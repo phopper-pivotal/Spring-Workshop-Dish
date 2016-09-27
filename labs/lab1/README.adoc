@@ -43,7 +43,7 @@ image::lab1_boot.png[]
 ....
 
 
-. from project root directory, run `mvn sprint-boot:run`
+. from project root directory, run `mvn spring-boot:run`
 . point a web browser to http://localhost:8080
 . bask in the glory that is Spring Boot
 
