@@ -1,23 +1,23 @@
-server:
-  port: 8443
-  ssl:
-    enabled: true
-    key-alias: spring-security
-    key-store: keystore.p12
-    key-store-type: PKCS12
-    key-store-password: spring-security
-    key-password: spring-security
+#server:
+#  port: 8443
+#  ssl:
+#    enabled: true
+#    key-alias: spring-security
+#    key-store: keystore.p12
+#    key-store-type: PKCS12
+#    key-store-password: spring-security
+#    key-password: spring-security
 
 ## Security
 security:
   user:
     name: springboot
     password: workshop
-# add content ----
-  oauth2:
-    client:
-      client-id: myid
-      client-secret: mysecret
+## add content ----
+#  oauth2:
+#    client:
+#      client-id: myid
+#      client-secret: mysecret
 # add content ^^^^
 
 #security:
