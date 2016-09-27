@@ -17,10 +17,10 @@ Setup the `Spring-Workshop-Dish` repository link:https://github.com/phopper-pivo
 $ cf api https://api.sys.internal-green.dev.mer.cfdish.io --skip-ssl-validation
 ----
 
-. Login to Pivotal Cloudfoundry:
+. Login to Pivotal Cloudfoundry (please specify organization: *_DEVELOPMENT-GREEN_* and space respective of your organization, default to *_Sandbox_*):
 +
 ----
-$ cf login (please specify organization: *_DEVELOPMENT-GREEN_* and space respective of your organization, default to Sandbox)
+$ cf login
 ----
 +
 Follow the prompts
