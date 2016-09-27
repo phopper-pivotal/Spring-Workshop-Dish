@@ -35,7 +35,7 @@ You should see output similar to the following listing. Take a look at the listi
 +
 ====
 ----
-Using manifest file /Users/phopper/workspace//cf-spring-mvc-boot/manifest.yml <1>
+Using manifest file /Users/phopper/workspace/cf-spring-mvc-boot/manifest.yml <1>
 
 Creating app workshop in org TELCO / space hopper as phopper@pivotal.io...
 OK <2>
@@ -99,7 +99,7 @@ Routes can actually be bound to multiple applications to support techniques such
 <6> Now we begin the staging process. The https://github.com/cloudfoundry/java-buildpack[Java Buildpack] is responsible for assembling the runtime components necessary to run the application.
 <7> Here we see the version of the JRE that has been chosen and installed.
 <8> The complete package of your application and all of its necessary runtime components is called a _droplet_.
-Here the droplet is being uploaded to Pivotal Cloudfoundry's internal blobstore so that it can be easily copied to one or more _http://docs.cloudfoundry.org/concepts/architecture/execution-agent.html[Droplet Execution Agents (DEA's)]_ for execution.
+Here the droplet is being uploaded to Pivotal Cloudfoundry's internal blobstore so that it can be easily copied to one or more _https://docs.pivotal.io/pivotalcf/1-7/concepts/diego/diego-architecture.html[Diego Architecture]_ for execution.
 <9> The CLI tells you exactly what command and argument set was used to start your application.
 <10> Finally the CLI reports the current status of your application's health.
 ====
